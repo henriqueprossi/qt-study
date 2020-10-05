@@ -27,6 +27,20 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
+windows {
+    SOURCES +=
+
+    HEADERS +=
+}
+
+linux {
+    SOURCES += \
+        sysinfolinuximpl.cpp
+
+    HEADERS += \
+        sysinfolinuximpl.h
+}
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
