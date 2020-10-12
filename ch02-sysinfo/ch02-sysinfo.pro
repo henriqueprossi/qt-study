@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -18,11 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    sysinfo.cpp
+    sysinfo.cpp \
+    sysinfowidget.cpp
 
 HEADERS += \
     mainwindow.h \
-    sysinfo.h
+    sysinfo.h \
+    sysinfowidget.h
 
 FORMS += \
     mainwindow.ui

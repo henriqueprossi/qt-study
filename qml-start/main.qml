@@ -23,5 +23,9 @@ Window {
         }
     }
 
+    my_toolbar {
+        width: parent.width
+    }
+
     title: qsTr("Hello World")
 }

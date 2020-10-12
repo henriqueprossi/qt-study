@@ -18,7 +18,6 @@ public:
 private:
     QVector<qulonglong> cpuRawData();
 
-private:
     QVector<qulonglong> mCpuLoadLastValues;
 };
 
